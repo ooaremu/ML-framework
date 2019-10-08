@@ -24,7 +24,7 @@ import os
 # Data set input
 Raw_data =['CMAPPS_train_FD001','CMAPPS_train_FD002','CMAPPS_train_FD003','CMAPPS_train_FD004']
 #select which data you want to work on
-selectd_dataset = pd.read_pickle('{0}'.format(orig_jets,Raw_data[2]))
+selectd_dataset = pd.read_pickle('{0}'.format(Raw_data[2]))
 ##-----------------------------------------------------------------------#
 Data_Full = pd.read_pickle('CMAPPS_train_{0}'.format('FD004'))
 
